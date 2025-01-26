@@ -1,12 +1,12 @@
 import React from 'react'
 import './Hero.css'
-import profile_img from '../../assets/profile_img.svg'
+import profile_img from '../../assets/profile_img.png'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Hero = () => {
   return (
     <div id='home' className='hero'>
-        <img src={profile_img} alt="my_image" />
+        <img src={profile_img} alt="my_image" style={{width:"320px", height:"320px"}} />
         <h1><span>I'm Gaurav,</span> frontend developer based in India.</h1>
         <p>I am a frontend developer from Delhi, India with 01 year of experience in Dice Academy.</p>
         <div className="hero-action">

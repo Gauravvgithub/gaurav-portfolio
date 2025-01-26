@@ -4,6 +4,16 @@
     justify-content: space-between;
     margin: 20px 170px;
 }
+.navbar h1{
+    display: flex;
+    padding: 30px 50px;
+    font-size: 35px;
+    font-weight: 600;
+    background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .nav-menu{
     display: flex;
     align-items: center;
@@ -80,5 +90,9 @@
         padding-left: 100px;
         flex-direction: row;
         gap: 20px;
+    }
+    .navbar h1{
+        padding: 20px 30px;
+        margin-left: 20%;
     }
 }
