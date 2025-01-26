@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background: #000000;
+    color: white;
+    font-family: 'outfit';
+}
+/* *::selection{
+    background-color:#df8908 ;
+    color: #b415ff;
+} */
