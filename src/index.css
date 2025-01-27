@@ -7,8 +7,5 @@ body{
     background: #000000;
     color: white;
     font-family: 'outfit';
+    cursor: none;
 }
-/* *::selection{
-    background-color:#df8908 ;
-    color: #b415ff;
-} */
