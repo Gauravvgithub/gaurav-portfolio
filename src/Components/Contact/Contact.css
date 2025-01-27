@@ -102,6 +102,22 @@
     transform: scale(1.1);
     transition: 0.3s;
 }
+.social-connects{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: -100px;
+}
+.loaders{
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: -50px;
+}
+.loader{
+    display: flex;
+    margin-left: 20px;    
+}
+
 @media(max-width:768px){
     .contact{
         gap: 50px;

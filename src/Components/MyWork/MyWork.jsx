@@ -14,11 +14,11 @@ const MyWork = () => {
         </div>
         <div className="mywork-container">
             {mywork_data.map((work,index)=>{
-                return <img key={index} src={work.w_img} alt="img" />
+                return <a href={work.w_link} target='blank' ><img key={index} src={work.w_img} alt="img" /> </a>
             })}
         </div>
         <div className="mywork-showmore">
-            <p>Show More</p>
+            <p><a href="https://github.com/Gauravvgithub" target='blank'>Show More</a></p>
             <img src={arrow_icon} alt="---->" />
         </div>
     </div>
